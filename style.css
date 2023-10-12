@@ -157,7 +157,6 @@ input[type="checkbox"]:checked{
     background:rgb(30, 30, 164);
     border-radius:100px;
     
-
 }
 .btn a{
     color:white;
@@ -189,7 +188,12 @@ input[type="checkbox"]:checked{
     color: rgb(86, 196, 159);
 
 }
+@media (max-width: 767px) {
+    .menu {
+        flex-direction: column;
+    }
 
-
-
-
+    .content, .form {
+        width: 100%;
+    }
+}
